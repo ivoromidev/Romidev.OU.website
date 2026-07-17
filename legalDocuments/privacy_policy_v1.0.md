@@ -1,7 +1,7 @@
 # Privacy Policy
 
-Version: v1.0  
-Effective Date: 2026-05-23  
+Version: v1.1  
+Effective Date: 2026-07-17  
 Data Controller: RomiDev OÜ (Estonia)  
 Contact: info@romidev.ee  
 
@@ -31,14 +31,19 @@ This data is used solely for authentication and account identification.
 
 This data is accessed via the Google Calendar API to provide calendar-related functionality within the application.
 
-### 2.3 User-Created Content
+### 2.3 Google Contacts Data
+- Contact names associated with email addresses in your Google Contacts
+
+This data is accessed read-only via the Google People API (Contacts) to display attendee names in calendar event participant lists when an email address alone would not be meaningful. Contact data is used only on your device to enrich calendar display and is not transmitted to or stored on our servers.
+
+### 2.4 User-Created Content
 - Notes
 - Handwritten input
 - Application-generated summaries (if applicable)
 
 All user-created notes and handwritten content are stored locally on the user’s device and are not transmitted to or stored on our servers.
 
-### 2.4 Analytics Data
+### 2.5 Analytics Data
 We use Amplitude to collect limited usage analytics such as:
 - App interactions
 - Feature usage
@@ -53,6 +58,7 @@ This data is used to improve app performance and user experience.
 We use collected data to:
 - Provide core application functionality
 - Enable authentication and calendar integration
+- Display attendee names in calendar events using Google Contacts data
 - Improve app performance and stability
 - Understand feature usage and user experience
 
@@ -70,7 +76,7 @@ We use collected data to:
 
 We use the following third-party services:
 
-- Google (Google Sign-In, Google Calendar API)
+- Google (Google Sign-In, Google Calendar API, Google People API / Contacts)
 - Amplitude (analytics and usage tracking)
 
 These providers may process data in accordance with their own privacy policies.
@@ -91,7 +97,7 @@ We process personal data based on:
 We do not sell personal data.
 
 We may share limited data with:
-- Google (for authentication and calendar functionality)
+- Google (for authentication, calendar functionality, and contacts display-name enrichment)
 - Amplitude (for analytics)
 
 Only the minimum necessary data is shared for these purposes.
