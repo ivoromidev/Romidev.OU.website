@@ -1,7 +1,7 @@
 # Terms of Service
 
-Version: v1.0  
-Effective Date: 2026-05-23  
+Version: v1.1  
+Effective Date: 2026-07-17  
 Company: RomiDev OÜ (Estonia)  
 Contact: info@romidev.ee  
 
@@ -19,6 +19,7 @@ By using the application, you agree to these Terms. If you do not agree, you sho
 
 The application provides productivity and calendar-related features, including:
 - Calendar integration via Google Calendar API
+- Contact name enrichment for calendar attendees via Google People API (Contacts)
 - Note-taking and handwritten input
 - AI-assisted or automated content features (if applicable)
 - Analytics-based product improvements
@@ -72,7 +73,7 @@ You agree not to:
 ## 7. Third-Party Services
 
 The application integrates with third-party services, including:
-- Google (Google Sign-In, Google Calendar API)
+- Google (Google Sign-In, Google Calendar API, Google People API / Contacts)
 - Amplitude (analytics and usage tracking)
 
 Use of these services is subject to their respective terms and privacy policies.
